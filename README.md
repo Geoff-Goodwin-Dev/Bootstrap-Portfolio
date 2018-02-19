@@ -13,9 +13,9 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ```
-This is a static web page exercise.  As such, you're welcome to download a copy and run it locally for review purposes.  
+* This is a static web page exercise.  As such, you're welcome to download a copy and run it locally for review purposes.  
 
-Otherwise, you can view the output at: <link tbd>
+* Otherwise, you can view the output at: <link tbd>
 ```
 
 ### Prerequisites
@@ -77,6 +77,7 @@ Not Applicable: This is a static website for educational purposes and therefore 
 ## Versioning
 
 * version 1.0 - Initialization and creation of Readme
+* version 1.1 (current version)- Creation of file structure and placeholder HTML files as well as upload of asstes including CSS and images
 
 ## Authors
 
