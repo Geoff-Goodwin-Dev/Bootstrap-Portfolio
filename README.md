@@ -1,8 +1,8 @@
 # Bootstrap Portfolio
 
-* **Created:** Sunday, February 18th, 2018
+* **Created:** Monday, February 19th, 2018
 
-* **Context:** This is the second week's homework assignment as a part of the Georgia Tech Coding Bootcamp. In this assignment, we are revisiting the Week 1 homework assignment (https://github.com/Geoff-Goodwin-Dev/Basic-Portfolio).  Homework's high level instructions are as follows:
+* **Context:** This is the second week's 1st homework assignment as a part of the Georgia Tech Coding Bootcamp. In this assignment, we are revisiting the Week 1 homework assignment (https://github.com/Geoff-Goodwin-Dev/Basic-Portfolio).  Homework's high level instructions are as follows:
 
 ```
 'In this assignment, you'll create two different portfolios. The first will be building your portfolio layout using the Bootstrap CSS Framework. The second will be enhancing the portfolio you made last week with a mobile-responsive layout.'
@@ -76,8 +76,9 @@ Not Applicable: This is a static website for educational purposes and therefore 
 
 ## Versioning
 
-* version 1.0 - Initialization and creation of Readme
-* version 1.1 (current version)- Creation of file structure and placeholder HTML files as well as upload of asstes including CSS and images
+* version 1.0 - Initialization and creation of Readme, 
+* version 1.1 - Creation of file structure and placeholder HTML files as well as upload of assets including CSS and images
+* version 1.2 (current version) - Upload of index.html redesigned with bootstrap as well as CSS for style modifications
 
 ## Authors
 
