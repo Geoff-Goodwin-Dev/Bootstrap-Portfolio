@@ -1,122 +1,155 @@
 <!doctype html>
+
 <html>
-  <head>
-    <title>Geoff Goodwin - Developer Page</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
 
-  <body>
+<head>
+  <title>Geoff Goodwin - Developer Page - Bootstrap</title>
 
-    <!--<div id="headerPlusBody">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-      <!--<div id="topRow">-->
-        <!--<div id="headerContainer" align="center">-->
-          <!--<header id="header">-->
-            <!--<div id="logoName">-->
-              <!--<h1>Geoff Goodwin</h1>-->
-            <!--</div>-->
-            <!--<div id="navLinkFarm">-->
-              <!--<a href="index.html" class="headerLink">About</a> |-->
-              <!--<a href="portfolio.html" class="headerLink">Portfolio</a> |-->
-              <!--<a href="contact.html" class="headerLink" id="headerLinkRight">Contact</a>-->
-            <!--</div>-->
-          <!--</header>-->
-        <!--</div>-->
-      <!--</div>-->
+<body>
+<!--NAVIGATION SECTION-->
+<div class="border-bottom mb-4" id="headerContainer">
 
-      <!--<div id="contentContainer" align="center">-->
+  <!--NAVIGATION CONTAINER FOR CENTERED ON PAGE-->
+  <div class="container" id="navigationBarContainer">
+    <div class="row">
 
-        <!--<div class="content">-->
+      <!--BRAND NAME SECTION-->
+      <div class="col-sm-12 col-md-5 col-lg-4 col-xl-3" id="header">
+        <h1 class="py-3 px-3 text-center" id="logoName">Geoff Goodwin</h1>
+      </div>
 
-          <!--<div class="contentSection mainBodyContainer">-->
-            <!--<h1 class="mainBodyCaption">Portfolio</h1>-->
-            <!--<hr>-->
+      <!--PLACEHOLDER-->
+      <div class="col-sm-12 col-md-2 col-lg-4 col-xl-6"></div>
 
-            <!--<div class="portfolioRow">-->
+      <!--LINK FARM-->
+      <div class="col-sm-12 col-md-5 col-lg-4 col-xl-3 py-3">
 
-              <!--&lt;!&ndash;PORTFOLIO ITEM #1 - HANGMAN&ndash;&gt;-->
-              <!--<a href="folio-construction.html">-->
-                <!--<div class="leftPortfolioItem folioItem" id="hangman">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Hangman</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
+        <div class="row">
+          <div class="col-4 text-center nopadding">
+            <a href="index.html" class="headerLink text-center py-3 nopadding">About</a>
+          </div>
+          <div class="col-4 text-center nopadding" id="centerLink">
+            <a href="portfolio.html" class="headerLink text-center py-3 nopadding">Portfolio</a>
+          </div>
+          <div class="col-4 text-center nopadding">
+            <a href="contact.html" class="headerLink text-center py-3 nopadding">Contact</a>
+          </div>
+        </div>
 
-              <!--&lt;!&ndash;PORTFOLIO ITEM #2 - RPG&ndash;&gt;-->
-              <!--<a href="folio-construction.html">-->
-                <!--<div class="rightPortfolioItem folioItem" id="rpg">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>RPG Game</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
+      </div>
 
-            <!--</div>-->
+    </div>
 
-            <!--<div class="portfolioRow">-->
+  </div>
+</div>
 
-              <!--&lt;!&ndash;PORTFOLIO ITEM #3 - TRIVIA&ndash;&gt;-->
-              <!--<a href="folio-construction.html">-->
-                <!--<div class="leftPortfolioItem folioItem" id="trivia">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Trivia Game</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
+<!--PAGE BODY-->
+<div class="container mb-4" id="bodySection">
+  <div class="row">
 
-              <!--&lt;!&ndash;PORTFOLIO ITEM #4 - RUTGERS&ndash;&gt;-->
-              <!--<a href="folio-construction.html">-->
-                <!--<div class="rightPortfolioItem folioItem" id="rutgers">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Rutgers Info Widget</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
+<!--__________________________________________________________________________________-->
 
-            <!--</div>-->
+    <!--MAIN CONTENT SECTION-->
+    <div class="col-md-8 col-xl-7">
+      <div class="card mb-4 px-4 py-3 mainBodyContainer">
+        <h1 id="mainBodyCaption">Portfolio</h1>
+        <hr class="horizDivider">
+        <div class="container">
+          <div class="row">
 
-            <!--<div class="portfolioRow">-->
+            <div class="col-lg-6 col-md-12 text-white mb-5">
+              <a href="folio-construction.html">
+                <img class="card-img folioItem" src="assets/images/folio1_hangman.png" alt="hangman">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-center py-3 folioCaption">Hangman</h3>
+                </div>
+              </a>
+            </div>
 
-              <!--&lt;!&ndash;PORTFOLIO ITEM #4 - RUTGERS&ndash;&gt;-->
-              <!--<a href="folio-construction.html">-->
-                <!--<div class="leftPortfolioItem folioItem" id="rockPaperScissors">-->
-                  <!--<div class="folioCaption">-->
-                    <!--<h3>Rock Paper Scissors</h3>-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</a>-->
+            <div class="col-lg-6 col-md-12 text-white mb-5">
+              <a href="folio-construction.html">
+                <img class="card-img folioItem" src="assets/images/folio2_rpg.png" alt="role playing game">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-center py-3 folioCaption">RPG Game</h3>
+                </div>
+              </a>
+            </div>
 
-              <!--&lt;!&ndash;PLACEHOLDER&ndash;&gt;-->
+            <div class="col-lg-6 col-md-12 text-white mb-5">
+              <a href="folio-construction.html">
+                <img class="card-img folioItem" src="assets/images/folio3_trivia.png" alt="trivia">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-center py-3 folioCaption">Trivia Game</h3>
+                </div>
+              </a>
+            </div>
 
-            <!--</div>-->
+            <div class="col-lg-6 col-md-12 text-white mb-5">
+              <a href="folio-construction.html">
+                <img class="card-img folioItem" src="assets/images/folio4_rutgers.png" alt="rutgers app">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-center py-3 folioCaption">Rutgers Info Widget</h3>
+                </div>
+              </a>
+            </div>
 
-          <!--</div>-->
+            <div class="col-lg-6 col-md-12 text-white mb-5">
+              <a href="folio-construction.html">
+                <img class="card-img folioItem" src="assets/images/folio5_rockpaperscissors.png" alt="rock paper scissors">
+                <div class="card-img-overlay">
+                  <h3 class="card-title text-center py-3 folioCaption">Rock Paper Scissors</h3>
+                </div>
+              </a>
+            </div>
 
-          <!--&lt;!&ndash; RIGHT SIDE CONNECT WITH ME BOX &ndash;&gt;-->
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <!--<div id="connectWithMeContainer" class="contentSection">-->
-            <!--<h2 id="connectWithMeCaption">Connect with Me</h2>-->
-            <!--<hr>-->
-            <!--<table id="logoFarm" width="100%">-->
-              <!--<tr>-->
-                <!--<td align="center"><a href="https://github.com/Geoff-Goodwin-Dev" target="_blank"><img src="assets/images/logo-github.png" width="45px" class="logoLink"></a></td>-->
-                <!--<td align="center"><a href="https://www.linkedin.com/in/geoff-goodwin-dev/" target="_blank"><img src="assets/images/logo-linkedin.png" width="45px" class="logoLink"></a></td>-->
-                <!--<td align="center"><a href="https://stackoverflow.com/users/9107950/geoff-goodwin" target="_blank"><img src="assets/images/logo-stackoverflow.png" width="45px" class="logoLink"></a></td>-->
-              <!--</tr>-->
-            <!--</table>-->
-          <!--</div>-->
+<!--__________________________________________________________________________________-->
 
-        <!--</div>-->
+    <!--CONNECT WITH ME SECTION-->
+    <div class="col-md-4 col-xl-5">
+      <div class="card mb-4 px-4 py-3 mainBodyContainer">
+        <h2 class="text-center" id="connectWithMeCaption">Connect With Me</h2>
+        <hr class="horizDivider">
+        <div class="row">
+          <div class="col text-center nopadding">
+            <a href="https://github.com/Geoff-Goodwin-Dev" target="_blank">
+              <img src="assets/images/logo-github.png" class="logoLink">
+            </a>
 
-      <!--</div>-->
-    <!--</div>-->
-  <!--<footer id="footer">-->
-    <!--Copyright &copy Geoffrey Goodwin 2017-->
-  <!--</footer>-->
+            <a href="https://www.linkedin.com/in/geoff-goodwin-dev/" target="_blank">
+              <img src="assets/images/logo-linkedin.png" class="logoLink">
+            </a>
 
-  </body>
+            <a href="https://stackoverflow.com/users/9107950/geoff-goodwin" target="_blank">
+              <img src="assets/images/logo-stackoverflow.png" class="logoLink">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<!--FOOTER SECTION-->
+<div id="footer" class="fixed-bottom text-center py-3 border-top">
+  Copyright &copy Geoffrey Goodwin 2017
+</div>
+
+</body>
 
 </html>

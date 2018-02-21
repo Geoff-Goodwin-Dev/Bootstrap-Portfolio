@@ -1,101 +1,132 @@
 <!doctype html>
+
 <html>
-  <head>
-    <title>Geoff Goodwin - Developer Page</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
 
-  <body>
-    <!--<div id="headerPlusBody">-->
-      <!--<div id="topRow">-->
-        <!--<div id="headerContainer" align="center">-->
-          <!--<header id="header">-->
-            <!--<div id="logoName">-->
-              <!--<h1>Geoff Goodwin</h1>-->
-            <!--</div>-->
-            <!--<div id="navLinkFarm">-->
-              <!--<a href="index.html" class="headerLink">About</a> |-->
-              <!--<a href="portfolio.html" class="headerLink">Portfolio</a> |-->
-              <!--<a href="contact.html" class="headerLink" id="headerLinkRight">Contact</a>-->
-            <!--</div>-->
-          <!--</header>-->
-        <!--</div>-->
-      <!--</div>-->
+<head>
+  <title>Geoff Goodwin - Developer Page - Bootstrap</title>
 
-      <!--<div id="contentContainer" align="center">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--<div class="content">-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-          <!--<div class="contentSection mainBodyContainer">-->
-            <!--<h1 class="mainBodyCaption">Contact</h1>-->
-            <!--<hr>-->
-            <!--<div class="container">-->
-              <!--<form action="mailto:ggoodwin.dev@gmail.com" method="post">-->
+<body>
+<!--NAVIGATION SECTION-->
+<div class="border-bottom mb-4" id="headerContainer">
 
-                <!--&lt;!&ndash; FIRST NAME FIELD &ndash;&gt;-->
-                <!--<div>-->
-                  <!--<label for="firstName">First Name</label>-->
-                  <!--<br>-->
-                  <!--<input type="text" id="firstName" name="firstName" placeholder="Enter your first / given name"-->
-                         <!--maxlength="50" required autofocus>-->
-                  <!--<div class="requirements">Must be a valid name</div>-->
-                <!--</div>-->
+  <!--NAVIGATION CONTAINER FOR CENTERED ON PAGE-->
+  <div class="container" id="navigationBarContainer">
+    <div class="row">
 
-                <!--&lt;!&ndash; LAST NAME FIELD &ndash;&gt;-->
-                <!--<div>-->
-                  <!--<label for="lastName">Last Name</label>-->
-                  <!--<br>-->
-                  <!--<input type="text" id="lastName" name="lastName" placeholder="Enter your last / family name"-->
-                         <!--maxlength="50" required>-->
-                  <!--<div class="requirements">Must be a valid name</div>-->
-                <!--</div>-->
+      <!--BRAND NAME SECTION-->
+      <div class="col-sm-12 col-md-5 col-lg-4 col-xl-3" id="header">
+        <h1 class="py-3 px-3 text-center" id="logoName">Geoff Goodwin</h1>
+      </div>
 
-                <!--&lt;!&ndash; EMAIL FIELD &ndash;&gt;-->
-                <!--<div>-->
-                  <!--<label for="contactEmail">Email</label>-->
-                  <!--<br>-->
-                  <!--<input type="email" id="contactEmail" name="contactEmail" placeholder="sample@domain.com" maxlength="100" required>-->
-                  <!--<div class="requirements">Please enter a valid email address.</div>-->
-                <!--</div>-->
+      <!--PLACEHOLDER-->
+      <div class="col-sm-12 col-md-2 col-lg-4 col-xl-6"></div>
 
-                <!--&lt;!&ndash; MESSAGE TEXT FIELD &ndash;&gt;-->
-                <!--<div>-->
-                  <!--<label for="messageContent">Message</label>-->
-                  <!--<br>-->
-                  <!--<textarea id="messageContent" name="messageContent" maxlength="5000" required></textarea>-->
-                <!--</div>-->
+      <!--LINK FARM-->
+      <div class="col-sm-12 col-md-5 col-lg-4 col-xl-3 py-3">
 
-                <!--&lt;!&ndash; SUBMIT BUTTON &ndash;&gt;-->
-                <!--<input type="submit" value="Submit">-->
-                <!--<input type="reset" value="Reset">-->
+        <div class="row">
+          <div class="col-4 text-center nopadding">
+            <a href="index.html" class="headerLink text-center py-3 nopadding">About</a>
+          </div>
+          <div class="col-4 text-center nopadding" id="centerLink">
+            <a href="portfolio.html" class="headerLink text-center py-3 nopadding">Portfolio</a>
+          </div>
+          <div class="col-4 text-center nopadding">
+            <a href="contact.html" class="headerLink text-center py-3 nopadding">Contact</a>
+          </div>
+        </div>
 
-              <!--</form>-->
-            <!--</div>-->
-          <!--</div>-->
+      </div>
 
-          <!--&lt;!&ndash; RIGHT SIDE CONNECT WITH ME BOX &ndash;&gt;-->
+    </div>
 
-          <!--<div id="connectWithMeContainer" class="contentSection">-->
-            <!--<h2 id="connectWithMeCaption">Connect with Me</h2>-->
-            <!--<hr>-->
-            <!--<table id="logoFarm" width="100%">-->
-              <!--<tr>-->
-                <!--<td align="center"><a href="https://github.com/Geoff-Goodwin-Dev" target="_blank"><img src="assets/images/logo-github.png" width="45px" class="logoLink"></a></td>-->
-                <!--<td align="center"><a href="https://www.linkedin.com/in/geoff-goodwin-dev/" target="_blank"><img src="assets/images/logo-linkedin.png" width="45px" class="logoLink"></a></td>-->
-                <!--<td align="center"><a href="https://stackoverflow.com/users/9107950/geoff-goodwin" target="_blank"><img src="assets/images/logo-stackoverflow.png" width="45px" class="logoLink"></a></td>-->
-              <!--</tr>-->
-            <!--</table>-->
-          <!--</div>-->
+  </div>
+</div>
 
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
+<!--PAGE BODY-->
+<div class="container mb-4" id="bodySection">
+  <div class="row">
 
-    <!--<footer id="footer">-->
-      <!--Copyright &copy Geoffrey Goodwin 2017-->
-    <!--</footer>-->
+    <!--MAIN CONTENT SECTION-->
+    <div class="col-md-8 col-xl-7">
+      <div class="card mb-4 px-4 py-3 mainBodyContainer">
+        <h1 id="mainBodyCaption">Contact</h1>
+        <hr class="horizDivider">
 
-  </body>
+        <!--=============================NEW FORM=============================-->
+
+        <form action="mailto:ggoodwin.dev@gmail.com" method="post">
+
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your first / given name" maxlength="50" required autofocus>
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter your last / family name" maxlength="50" required>
+          </div>
+
+
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="sample@domain.com" maxlength="100" required>
+            <div class="requirements">Please enter a valid email address.</div>
+          </div>
+
+          <div class="form-group">
+            <label for="messageContent">Message</label>
+            <textarea class="form-control" id="messageContent" maxlength="5000" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-danger">Reset</button>
+        </form>
+
+      </div>
+    </div>
+
+    <!--CONNECT WITH ME SECTION-->
+    <div class="col-md-4 col-xl-5">
+      <div class="card mb-4 px-4 py-3 mainBodyContainer">
+        <h2 class="text-center" id="connectWithMeCaption">Connect With Me</h2>
+        <hr class="horizDivider">
+        <div class="row">
+          <div class="col text-center nopadding">
+            <a href="https://github.com/Geoff-Goodwin-Dev" target="_blank">
+              <img src="assets/images/logo-github.png" class="logoLink">
+            </a>
+
+            <a href="https://www.linkedin.com/in/geoff-goodwin-dev/" target="_blank">
+              <img src="assets/images/logo-linkedin.png" class="logoLink">
+            </a>
+
+            <a href="https://stackoverflow.com/users/9107950/geoff-goodwin" target="_blank">
+              <img src="assets/images/logo-stackoverflow.png" class="logoLink">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<!--FOOTER SECTION-->
+<div id="footer" class="fixed-bottom text-center py-3 border-top">
+  Copyright &copy Geoffrey Goodwin 2017
+</div>
+
+</body>
 
 </html>

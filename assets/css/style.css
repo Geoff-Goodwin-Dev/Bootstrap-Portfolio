@@ -21,7 +21,6 @@ body {
   margin: 0 auto;
 }
 
-
 #logoName {
   background-color: #4aaaa5;
   color: #ffffff;
@@ -39,7 +38,7 @@ body {
 
 .headerLink {
   color: #aaaaaa;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 18px;
   margin: 15px;
   -webkit-transition: .3s;
@@ -47,7 +46,7 @@ body {
 }
 
 .headerLink:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   text-shadow: 0 0 5px rgba(74, 170, 165, 0.8);
   color: #404040;
   -webkit-transition: .5s;
@@ -101,61 +100,29 @@ body {
   padding: 0;
 }
 
+/*PORTFOLIO SECTION*/
 
+.folioItem {
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);
+  border: 1px solid #666666;
+  background-size: 100%;
+}
 
+.folioCaption {
+  color: #ffffff;
+  background-color: rgba(74, 170, 165, 0.8);
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  right: 15px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: Verdana, Geneva, sans-serif;
+  display: block;
+  font-size: 16px;
+}
 
-
-/*!* -------PORTFOLIO SECTION------------ *!*/
-
-/*.leftPortfolioItem {*/
-  /*float: left;*/
-/*}*/
-
-/*.rightPortfolioItem {*/
-  /*float: right;*/
-/*}*/
-
-/*.folioItem {*/
-  /*background-color: #242bb3;*/
-  /*height: 205px;*/
-  /*width: 275px;*/
-  /*margin-bottom: 60px;*/
-  /*position: relative;*/
-  /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);*/
-  /*border: 1px solid #666666;*/
-  /*background-size: 100%;*/
-/*}*/
-
-/*.folioCaption {*/
-  /*text-align: center;*/
-  /*color: #ffffff;*/
-  /*background-color: rgba(74, 170, 165, 0.8);*/
-  /*line-height: 60px;*/
-  /*position: absolute;*/
-  /*bottom: 10px;*/
-  /*width: 100%;*/
-  /*box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);*/
-/*}*/
-
-/*#hangman {*/
-  /*background-image: url("../images/folio1_hangman.png");*/
-/*}*/
-
-/*#rpg {*/
-  /*background-image: url("../images/folio2_rpg.png");*/
-/*}*/
-
-/*#trivia {*/
-  /*background-image: url("../images/folio3_trivia.png");*/
-/*}*/
-
-/*#rutgers {*/
-  /*background-image: url("../images/folio4_rutgers.png");*/
-/*}*/
-
-/*#rockPaperScissors {*/
-  /*background-image: url("../images/folio5_rockpaperscissors.png");*/
-/*}*/
+/*Connect with me links box*/
 
 .logoLink {
   text-decoration: none;
@@ -177,94 +144,50 @@ body {
 
 /*Contact Webform Section*/
 
-/*form {*/
-  /*margin: 0 auto;*/
-/*}*/
+form > div > input[type="text"],
+form > div > input[type="email"],
+form > div > textarea {
+  margin: 4px 0;
+  resize: vertical;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-/*form > div {*/
-  /*position: relative;*/
-  /*margin-top: 16px;*/
-/*}*/
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus {
+  background: white;
+}
 
-/*form > div > input[type="text"],*/
-/*form > div > input[type="email"],*/
-/*form > div > textarea {*/
-  /*width: 100%;*/
-  /*padding: 12px;*/
-  /*border: 1px solid #cccccc;*/
-  /*border-radius: 3px;*/
-  /*margin: 4px 0;*/
-  /*resize: vertical;*/
-  /*box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);*/
-/*}*/
+form > div > input[type="text"]:valid,
+form > div > input[type="email"]:valid  {
+  background: #ffffff url("../images/check.png") no-repeat 98% 50%;
+  background-size: 20px;
+  border: 1px solid #2db34a;
+}
 
-/*form > div > input[type="text"]:focus,*/
-/*form > div > input[type="email"]:focus {*/
-  /*background: white;*/
-/*}*/
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {
+  background: #ffe6e6;
+  border: 1px solid #FF0000;
+}
 
-/*form > div > input[type="text"]:valid,*/
-/*form > div > input[type="email"]:valid  {*/
-  /*background: #ffffff url("../images/check.png") no-repeat 98% 50%;*/
-  /*background-size: 20px;*/
-  /*border: 1px solid #2db34a;*/
-/*}*/
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements {
+  max-height: 200px;
+  padding-bottom: 10px;
+}
 
-/*form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),*/
-/*form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {*/
-  /*background: #ffe6e6;*/
-  /*border: 1px solid #FF0000;*/
-/*}*/
+form > div .requirements {
+  max-height: 0;
+  -webkit-transition: .8s;
+  transition: .8s;
+  overflow: hidden;
+  color: red;
+  font-size: 14px;
+}
 
-/*form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,*/
-/*form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements {*/
-  /*max-height: 200px;*/
-  /*padding-bottom: 10px;*/
-/*}*/
-
-/*form > div .requirements {*/
-  /*max-height: 0;*/
-  /*-webkit-transition: .8s;*/
-  /*transition: .8s;*/
-  /*overflow: hidden;*/
-  /*color: red;*/
-  /*font-size: 14px;*/
-/*}*/
-
-/*label {*/
-  /*font-weight: bold;*/
-/*}*/
-
-/*#messageContent {*/
-  /*height: 200px;*/
-/*}*/
-
-/*input[type=submit],*/
-/*input[type=reset] {*/
-  /*background-color: #4aaaa5;*/
-  /*color: #ffffff;*/
-  /*padding: 12px 20px;*/
-  /*border: none;*/
-  /*border-radius: 3px;*/
-  /*cursor: pointer;*/
-  /*box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);*/
-  /*font-size: 16px;*/
-  /*margin-right: 20px;*/
-  /*-webkit-transition: .3s;*/
-  /*transition: .3s;*/
-/*}*/
-
-/*input[type=submit]:hover,*/
-/*input[type=reset]:hover{*/
-  /*background-color: #2D918D;*/
-  /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);*/
-  /*-webkit-transition: .5s;*/
-  /*transition: .5s;*/
-/*}*/
-
-/*.container {*/
-  /*border-radius: 5px;*/
-/*}*/
+#messageContent {
+  height: 150px;
+}
 
 /*FOOTER-SPECIFIC FORMATTING*/
 

@@ -78,7 +78,8 @@ Not Applicable: This is a static website for educational purposes and therefore 
 
 * version 1.0 - Initialization and creation of Readme, 
 * version 1.1 - Creation of file structure and placeholder HTML files as well as upload of assets including CSS and images
-* version 1.2 (current version) - Upload of index.html redesigned with bootstrap as well as CSS for style modifications
+* version 1.2 - Upload of index.html redesigned with bootstrap as well as CSS for style modifications
+* version 1.3 (current version) - Completed portfolio page, project under construction page, and contact webform page
 
 ## Authors
 
